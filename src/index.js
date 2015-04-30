@@ -1,3 +1,6 @@
-module.exports = function isBoolean(obj) {
+module.exports = isBoolean;
+
+
+function isBoolean(obj) {
     return typeof(obj) === "boolean" || false;
-};
+}
